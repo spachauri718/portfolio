@@ -143,7 +143,6 @@ body {
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
-
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
@@ -489,7 +488,6 @@ section{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-
 }
 
  svg{
@@ -582,9 +580,6 @@ section{
     opacity: 0;
 }
 
-
-
-
 .main-text{
     padding-top: 130px;
     margin-top: 400px;
@@ -600,16 +595,15 @@ section{
     color: skyblue;
 }
 .portfolio-content{
-
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(359px,auto));
 }
+
 .row{
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-
 }
 .row img{
     width: 100%;
@@ -666,7 +660,6 @@ section{
 .row:hover .layer{
     height: 100%;
 }
-
 
 .contact{
     display: grid;
@@ -772,7 +765,6 @@ input::placeholder {
     height : 220px;
 }
 
-
 .contact-form form .send{
     display: inline-block;
     padding:14px 60px ;
@@ -791,7 +783,6 @@ input::placeholder {
     cursor: pointer;
 }
 
-
 .last-text p{
     width: 100%;
     text-align: center;
@@ -800,7 +791,6 @@ input::placeholder {
     font-weight: 300;
     margin-top: 70px;
 }
-
 
 .top{
     position: fixed;
@@ -815,11 +805,6 @@ input::placeholder {
     padding: 10px;
     border-radius: 0.5rem;
 }
-
-
-
-
-
 
 @keyframes slideRight {
     0% {
