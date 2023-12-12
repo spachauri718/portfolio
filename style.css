@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
@@ -745,7 +746,9 @@ section{
     color: black;
     box-shadow: 0 0 20px 0 skyblue;
 }
-
+input::placeholder {
+    color: black; /* Set the desired color */
+}
 
 .contact-form form{
     position: relative;
@@ -771,10 +774,47 @@ section{
 
 
 .contact-form form .send{
-    
+    display: inline-block;
+    padding:14px 60px ;
+    background:skyblue;
+    border-radius: 40px;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px skyblue,
+     0 0 25px skyblue;
+    cursor: pointer;
 }
 
 
+.last-text p{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: rgb(7,85,91);
+    font-weight: 300;
+    margin-top: 70px;
+}
+
+
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+
+.top i{
+    color: black;
+    background:skyblue ;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
 
 
 
